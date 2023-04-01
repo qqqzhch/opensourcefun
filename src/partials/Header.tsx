@@ -59,20 +59,20 @@ function Header() {
           {/* Site navigation */}
           <nav className="flex grow">
             <ul className="flex grow flex-wrap items-center justify-end">
-              <li>
+              {/* <li>
                 <Link
                   href={'/signin'}
                   className="flex items-center px-5 py-3 font-medium text-gray-600 transition duration-150 ease-in-out hover:text-gray-900"
                 >
                   Sign in
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
-                  href={'/signup'}
+                  href={'/'}
                   className="btn-sm ml-3 bg-gray-900 text-gray-200 hover:bg-gray-800"
                 >
-                  <span>Sign up</span>
+                  <span>MetaMask</span>
                   <svg
                     className="ml-2 -mr-1 h-3 w-3 shrink-0 fill-current text-gray-400"
                     viewBox="0 0 12 12"

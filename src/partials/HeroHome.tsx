@@ -45,15 +45,18 @@ function HeroHome() {
           {/* Section header */}
           <div className="pb-12 text-center md:pb-16">
             <h1 className="leading-tighter mb-4 text-5xl font-extrabold tracking-tighter md:text-6xl">
-              Make your website{' '}
+              Making{' '}
               <span className="bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent">
-                wonderful
-              </span>
+                open source
+              </span>{' '}
+              hiring and job hunting easier
             </h1>
             <div className="mx-auto max-w-3xl">
               <p className="mb-8 text-xl text-gray-600">
-                Our landing page template works on all devices, so you only have
-                to set it up once, and get beautiful results forever.
+                Most blockchain projects and web3 projects are open source,
+                making it easier to recruit and apply for open source workers to
+                meet the needs of the growing number of cryptocurrency open
+                source projects
               </p>
               <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
                 <div>
@@ -61,7 +64,7 @@ function HeroHome() {
                     className="btn mb-4 w-full bg-blue-600 text-white hover:bg-blue-700 sm:mb-0 sm:w-auto"
                     href="#0"
                   >
-                    Start free trial
+                    Twitter
                   </a>
                 </div>
                 <div>
@@ -69,7 +72,7 @@ function HeroHome() {
                     className="btn w-full bg-gray-900 text-white hover:bg-gray-800 sm:ml-4 sm:w-auto"
                     href="#0"
                   >
-                    Learn more
+                    Discord
                   </a>
                 </div>
               </div>
@@ -163,15 +166,9 @@ function HeroHome() {
                 }}
                 aria-controls="modal"
               >
-                <svg
-                  className="h-6 w-6 shrink-0 fill-current text-gray-400 group-hover:text-blue-600"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10zm0 2C5.373 24 0 18.627 0 12S5.373 0 12 0s12 5.373 12 12-5.373 12-12 12z" />
-                  <path d="M10 17l6-5-6-5z" />
-                </svg>
-                <span className="ml-3">Watch the full video (2 min)</span>
+                <span className="ml-3">
+                  View developer diary (under intense development)
+                </span>
               </button>
             </div>
           </div>

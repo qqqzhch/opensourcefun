@@ -1,5 +1,7 @@
 import React from 'react';
 
+import fansImage from '../images/jsfanseth.jpeg';
+
 function Newsletter() {
   return (
     <section>
@@ -94,34 +96,36 @@ function Newsletter() {
             <div className="relative flex flex-col items-center justify-between lg:flex-row">
               {/* CTA content */}
               <div className="text-center lg:max-w-xl lg:text-left">
-                <h3 className="h3 mb-2 text-white">Powering your business</h3>
+                <h3 className="h3 mb-2 text-white">OUR TEAM</h3>
                 <p className="mb-6 text-lg text-gray-300">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit nemo
-                  expedita voluptas culpa sapiente.
+                  Composition of developers active in the open source community
                 </p>
-
-                {/* CTA form */}
-                <form className="w-full lg:w-auto">
-                  <div className="mx-auto flex max-w-xs flex-col justify-center sm:max-w-md sm:flex-row lg:mx-0">
-                    <input
-                      type="email"
-                      className="form-input mb-2 w-full appearance-none rounded-sm border border-gray-700 bg-gray-800 px-4 py-3 text-white placeholder:text-gray-500 focus:border-gray-600 sm:mb-0 sm:mr-2"
-                      placeholder="Your email…"
-                      aria-label="Your email…"
-                    />
-                    <a
-                      className="btn bg-blue-600 text-white shadow hover:bg-blue-700"
-                      href="#0"
-                    >
-                      Subscribe
-                    </a>
+                <div className="-m-4 flex flex-wrap">
+                  <div className="p-4 md:w-1/2 lg:w-1/4">
+                    <div className="flex h-full flex-col items-center text-center">
+                      <img
+                        alt="team"
+                        className="mb-4  h-28 w-full shrink-0 rounded-lg object-cover object-center"
+                        src={fansImage.src}
+                      ></img>
+                      <div className="w-full">
+                        <h3 className="mb-3 text-gray-500">Jsfans.eth</h3>
+                      </div>
+                    </div>
                   </div>
-                  {/* Success message */}
-                  {/* <p className="text-sm text-gray-400 mt-3">Thanks for subscribing!</p> */}
-                  <p className="mt-3 text-sm text-gray-400">
-                    7 days free trial. No credit card required.
-                  </p>
-                </form>
+                  <div className="p-4 md:w-1/2 lg:w-1/4">
+                    <div className="flex h-full flex-col items-center text-center">
+                      <img
+                        alt="team"
+                        className="mb-4 h-28 w-full shrink-0 rounded-lg object-cover object-center"
+                        src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg"
+                      ></img>
+                      <div className="w-full">
+                        <h3 className="mb-3 text-gray-500">ChatGpt </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

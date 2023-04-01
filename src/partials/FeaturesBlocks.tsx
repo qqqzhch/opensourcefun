@@ -14,11 +14,9 @@ function FeaturesBlocks() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="mx-auto max-w-3xl pb-12 text-center md:pb-20">
-            <h2 className="h2 mb-4">How Simple works</h2>
+            <h2 className="h2 mb-4">Supported platforms</h2>
             <p className="text-xl text-gray-600">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur excepteur sint occaecat
-              cupidatat.
+              Support for the developer community often uses collaboration tools
             </p>
           </div>
 
@@ -61,7 +59,7 @@ function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="mb-1 text-xl font-bold leading-snug tracking-tight">
-                Initial Contact
+                GITHUB
               </h4>
               <p className="text-center text-gray-600">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -102,7 +100,7 @@ function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="mb-1 text-xl font-bold leading-snug tracking-tight">
-                Discovery Session
+                GitKraken
               </h4>
               <p className="text-center text-gray-600">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -136,7 +134,7 @@ function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="mb-1 text-xl font-bold leading-snug tracking-tight">
-                Contracting
+                Bitbucket
               </h4>
               <p className="text-center text-gray-600">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -183,7 +181,7 @@ function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="mb-1 text-xl font-bold leading-snug tracking-tight">
-                Fast Prototyping
+                GitLab
               </h4>
               <p className="text-center text-gray-600">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -217,7 +215,7 @@ function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="mb-1 text-xl font-bold leading-snug tracking-tight">
-                Design Phase
+                SourceForge
               </h4>
               <p className="text-center text-gray-600">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -260,7 +258,7 @@ function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="mb-1 text-xl font-bold leading-snug tracking-tight">
-                Develop & Launch
+                Launchpad
               </h4>
               <p className="text-center text-gray-600">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.

@@ -58,7 +58,7 @@ function Footer() {
           </div>
 
           {/* 2nd block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+          {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="mb-2 font-medium text-gray-800">Products</h6>
             <ul className="text-sm">
               <li className="mb-2">
@@ -102,10 +102,10 @@ function Footer() {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           {/* 3rd block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+          {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="mb-2 font-medium text-gray-800">Resources</h6>
             <ul className="text-sm">
               <li className="mb-2">
@@ -149,10 +149,10 @@ function Footer() {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           {/* 4th block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+          {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="mb-2 font-medium text-gray-800">Company</h6>
             <ul className="text-sm">
               <li className="mb-2">
@@ -196,10 +196,10 @@ function Footer() {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           {/* 5th block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
+          {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
             <h6 className="mb-2 font-medium text-gray-800">Subscribe</h6>
             <p className="mb-4 text-sm text-gray-600">
               Get the latest news and articles to your inbox every month.
@@ -239,12 +239,12 @@ function Footer() {
                       </svg>
                     </button>
                   </div>
-                  {/* Success message */}
-                  {/* <p className="mt-2 text-green-600 text-sm">Thanks for subscribing!</p> */}
+                  Success message
+                  <p className="mt-2 text-green-600 text-sm">Thanks for subscribing!</p>
                 </div>
               </div>
             </form>
-          </div>
+          </div> */}
         </div>
 
         {/* Bottom area */}
@@ -299,16 +299,7 @@ function Footer() {
           </ul>
 
           {/* Copyrights note */}
-          <div className="mr-4 text-sm text-gray-600">
-            Made by{' '}
-            <a
-              className="text-blue-600 hover:underline"
-              href="https://cruip.com/"
-            >
-              Cruip
-            </a>
-            . All rights reserved.
-          </div>
+          <div className="mr-4 text-sm text-gray-600">All rights reserved.</div>
         </div>
       </div>
     </footer>

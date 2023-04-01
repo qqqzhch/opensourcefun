@@ -35,11 +35,11 @@ function Features() {
         <div className="pt-12 md:pt-20">
           {/* Section header */}
           <div className="mx-auto max-w-3xl pb-12 text-center md:pb-16">
-            <h1 className="h2 mb-4">Explore the solutions</h1>
+            <h1 className="h2 mb-4">Our solutions</h1>
             <p className="text-xl text-gray-600">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur excepteur sint occaecat
-              cupidatat.
+              Taking into account the various requirements of open source and
+              blockchain projects web3 projects, we implement the following
+              solutions
             </p>
           </div>
 
@@ -50,9 +50,9 @@ function Features() {
               <div className="mb-8 md:pr-4 lg:pr-12 xl:pr-16">
                 <h3 className="h3 mb-3">Powerful suite of tools</h3>
                 <p className="text-xl text-gray-600">
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore pariatur. Excepteur sint occaecat cupidatat non
-                  proident, sunt in culpa.
+                  Proof of work like Bitcoin, an open source project worker
+                  during his involvement in an open source project that can
+                  prove his work
                 </p>
               </div>
               {/* Tabs buttons */}
@@ -71,11 +71,11 @@ function Features() {
                 >
                   <div>
                     <div className="mb-1 font-bold leading-snug tracking-tight">
-                      Building the Simple ecosystem
+                      Automatic generation of CVs and JDs based on open source
+                      projects
                     </div>
                     <div className="text-gray-600">
-                      Take collaboration to the next level with security and
-                      administrative features built for teams.
+                      Say goodbye to fake CVs、 JDs
                     </div>
                   </div>
                   <div className="ml-3 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white shadow">
@@ -102,11 +102,12 @@ function Features() {
                 >
                   <div>
                     <div className="mb-1 font-bold leading-snug tracking-tight">
-                      Building the Simple ecosystem
+                      View technical and communication skills by analysing work
+                      history
                     </div>
                     <div className="text-gray-600">
-                      Take collaboration to the next level with security and
-                      administrative features built for teams.
+                      Communication and technology are both important when
+                      working in a distributed office
                     </div>
                   </div>
                   <div className="ml-3 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white shadow">
@@ -136,11 +137,11 @@ function Features() {
                 >
                   <div>
                     <div className="mb-1 font-bold leading-snug tracking-tight">
-                      Building the Simple ecosystem
+                      Issue token for open source projects
                     </div>
                     <div className="text-gray-600">
-                      Take collaboration to the next level with security and
-                      administrative features built for teams.
+                      Bringing more rewards to open source workers by issuing
+                      token
                     </div>
                   </div>
                   <div className="ml-3 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white shadow">
