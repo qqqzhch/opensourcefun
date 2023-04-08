@@ -1,7 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react';
 
-import FeaturesBg from '../images/features-bg.png';
-import FeaturesElement from '../images/features-element.png';
+import Featurestalk from '../images/talk.png';
+import FeaturesToken from '../images/token.jpeg';
+import Featureswork from '../images/work.png';
 import Transition from '../utils/Transition';
 
 function Features() {
@@ -182,19 +183,19 @@ function Features() {
                   <div className="relative inline-flex flex-col">
                     <img
                       className="mx-auto rounded md:max-w-none"
-                      src={FeaturesBg.src}
+                      src={Featureswork.src}
                       width="500"
                       height="462"
                       alt="Features bg"
                     />
-                    <img
+                    {/* <img
                       className="animate-float absolute left-0 w-full md:max-w-none"
                       src={FeaturesElement.src}
                       width="500"
                       height="44"
                       alt="Element"
                       style={{ top: '30%' }}
-                    />
+                    /> */}
                   </div>
                 </Transition>
                 {/* Item 2 */}
@@ -212,19 +213,19 @@ function Features() {
                   <div className="relative inline-flex flex-col">
                     <img
                       className="mx-auto rounded md:max-w-none"
-                      src={FeaturesBg.src}
+                      src={Featurestalk.src}
                       width="500"
                       height="462"
                       alt="Features bg"
                     />
-                    <img
+                    {/* <img
                       className="animate-float absolute left-0 w-full md:max-w-none"
                       src={FeaturesElement.src}
                       width="500"
                       height="44"
                       alt="Element"
                       style={{ top: '30%' }}
-                    />
+                    /> */}
                   </div>
                 </Transition>
                 {/* Item 3 */}
@@ -242,19 +243,19 @@ function Features() {
                   <div className="relative inline-flex flex-col">
                     <img
                       className="mx-auto rounded md:max-w-none"
-                      src={FeaturesBg.src}
+                      src={FeaturesToken.src}
                       width="500"
                       height="462"
                       alt="Features bg"
                     />
-                    <img
+                    {/* <img
                       className="animate-float absolute left-0 w-full md:max-w-none"
-                      src={FeaturesElement.src}
+                      src={FeaturesToken.src}
                       width="500"
                       height="44"
                       alt="Element"
                       style={{ top: '30%' }}
-                    />
+                    /> */}
                   </div>
                 </Transition>
               </div>

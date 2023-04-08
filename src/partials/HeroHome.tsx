@@ -49,14 +49,14 @@ function HeroHome() {
               <span className="bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent">
                 open source
               </span>{' '}
-              hiring and job hunting easier
+              enjoyable for enterprises and developers
             </h1>
             <div className="mx-auto max-w-3xl">
               <p className="mb-8 text-xl text-gray-600">
-                Most blockchain projects and web3 projects are open source,
-                making it easier to recruit and apply for open source workers to
-                meet the needs of the growing number of cryptocurrency open
-                source projects
+                Most blockchain projects and web3 projects are open source。
+                <br></br>
+                Easy for developers to find the right project and easy for
+                companies to find the right developer
               </p>
               <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
                 <div>
